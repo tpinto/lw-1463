@@ -1,0 +1,42 @@
+/* TODO: design your profile with CSS */
+
+body {
+  background: #ccc;
+
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+div.content {
+  width: 80%;
+  margin: 0 auto; /* centering the div.content withint the parent */
+  text-align: center;
+}
+
+div.cards-list {
+  display: flex;
+  justify-content: space-evenly; /* center elements */
+}
+
+div.card {
+  width: 200px;
+  padding: 5px;
+  background: white;
+}
+
+div.card img {
+  width: 100%;
+}
+
+div.card ul {
+  list-style: none;
+  gap: 10px;
+  justify-content: end;
+  margin: 5px 0px;
+}
+
+div.card ul li {
+  color: #aaa;
+  display: inline;
+  float: right;
+  padding-right: 5px;
+}
