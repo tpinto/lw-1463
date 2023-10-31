@@ -1,0 +1,92 @@
+.panel {
+  width: 70%;
+  margin: 50px auto;
+
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 3px 15px #333;
+  padding: 30px 30px;
+}
+
+.purple {
+  color: purple;
+}
+
+.panel-header > * {
+  margin: 0;
+}
+
+.panel-numbers {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-number-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.panel-number-single {
+  background: #ccc;
+  border-radius: 5px;
+  text-align: center;
+  flex-grow: 1;
+  margin: 5px;
+  width: 50%;
+}
+
+.panel-number-single div:nth-child(1) {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.panel-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-list-single {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.panel-list-status-meter ul {
+  list-style: none;
+}
+
+.panel-list-status-meter li {
+  background: #ccc;
+  width: 10px;
+  height: 20px;
+  margin: 1px;
+  float: left;
+}
+
+.panel-list-status-meter-1 li:nth-child(-n + 1) {
+  background: green;
+}
+
+.panel-list-status-meter-2 li:nth-child(-n + 2) {
+  background: green;
+}
+
+.panel-list-status-meter-3 li:nth-child(-n + 3) {
+  background: green;
+}
+
+.panel-list-status-meter-4 li:nth-child(-n + 4) {
+  background: green;
+}
+
+.panel-list-status-meter-5 li:nth-child(-n + 5) {
+  background: green;
+}
+
+.panel-list-status-meter-6 li:nth-child(-n + 6) {
+  background: green;
+}
+
+.panel-list-status-meter-7 li:nth-child(-n + 7) {
+  background: green;
+}

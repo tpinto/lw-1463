@@ -1,0 +1,21 @@
+/* --- Google Fonts --- */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700');
+
+@import url('components/panel.css');
+
+/* --- Fonts & colors --- */
+body {
+  font-family: 'Open Sans', 'Helvetica', 'sans-serif';
+  padding-bottom: 200px;
+  margin: 0;
+  background-color: #ccc;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', 'sans-serif';
+}
+
+.text-center {
+  text-align: center;
+}
