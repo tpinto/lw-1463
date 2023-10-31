@@ -1,0 +1,27 @@
+.card-category {
+  width: 250px;
+  height: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: url('/images/breakfast.jpg');
+}
+
+.card-category h2 {
+  text-shadow: 2px 2px black;
+  color: white;
+}
+
+.card-trip {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-trip .card-trip-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px;
+}

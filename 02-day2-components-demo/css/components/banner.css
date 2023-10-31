@@ -1,0 +1,12 @@
+.banner {
+  background: url('/images/background.jpg');
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 15px;
+}
+
+.banner p {
+  margin: 5px 0px;
+}
